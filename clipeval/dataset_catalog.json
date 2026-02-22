@@ -1,0 +1,6 @@
+{
+     "chexpert_test": {
+        "path": "/mnt/c/chong/data/CheXpert-v1.0/chexlocalize",
+        "gt_path": "groundtruth.csv"
+    }
+}

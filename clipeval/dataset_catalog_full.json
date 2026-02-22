@@ -1,0 +1,42 @@
+{
+     "chexpert_test": {
+        "path": "/mnt/c/chong/data/CheXpert-v1.0/chexlocalize",
+        "gt_path": "groundtruth.csv"
+    },
+     "mimic": {
+        "path": "/mnt/c/chong/data/mimic-cxr-jpg",
+        "gt_path": "test.csv"
+    },
+     "nihchestxray14": {
+        "path": "/mnt/c/chong/data/chestxray14",
+        "gt_path": "test_list.txt"
+    },
+     "pneumonia_Xray2017": {
+        "path": "/mnt/c/chong/data/Xray/ChestXRay2017/chest_xray/test",
+        "gt_path": "not required"
+    },
+     "simm_pneumothorax": {
+        "path": "/mnt/c/chong/data/Xray/SIIM-ACR-Pneumothorax-Segmentation-Data/pneumothorax",
+        "gt_path": "train-rle_zhihong.csv"
+    },
+     "tbx11k": {
+        "path": "/mnt/c/chong/data/Xray/TBX11K",
+        "gt_path": "TBX11K_val.txt"
+    },
+     "vindr_cxr": {
+        "path": "/mnt/c/chong/data/vindr-cxr",
+        "gt_path": "image_labels_test.csv"
+    },
+     "vindr_pcxr": {
+        "path": "/mnt/c/chong/data/vindr-pcxr",
+        "gt_path": "image_labels_test.csv"
+    },
+     "chexpert_5x200_retrieve": {
+        "path": "/mnt/c/chong/data/CheXpert-v1.0",
+        "gt_path": "chexpert_5x200.csv"
+    },
+     "mimic_retrieve": {
+        "path": "/mnt/c/chong/data/mimic-cxr-jpg",
+        "gt_path": "master.csv"
+    }
+}

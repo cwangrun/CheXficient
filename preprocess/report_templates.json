@@ -1,0 +1,47 @@
+{
+  "positive": [
+    "The radiograph reveals evidence of {condition}.",
+    "The radiograph demonstrates areas consistent with {condition}.",
+    "There are findings suggestive of {condition}.",
+    "There is presence of {condition}.",
+    "There is a positive finding of {condition}.",
+    "The radiographic examination of the chest reveals the presence of {condition}.",
+    "There is evidence of {condition}.",
+    "{condition} is present."
+  ],
+  "negative": [
+    "No evidence of {condition} is observed.",
+    "{condition} is not identified.",
+    "The radiograph does not show any signs of {condition}.",
+    "There is no indications of {condition} in the radiograph.",
+    "No {condition} is identified in the examined region.",
+    "No signs of {condition} is observed.",
+    "The image does not conclusively indicate {condition}."
+  ],
+  "uncertain": [
+    "There is uncertainty regarding {condition}.",
+    "The presence of {condition} is uncertain based on the current examination.",
+    "The image shows uncertainty in {condition}."
+  ],
+  "no finding": [
+    "The radiographic examination of the chest reveals no significant abnormalities or pathologies.",
+    "The radiographic examination of the patient does not reveal any significant abnormal findings."
+  ],
+  "pleural others": [
+    "There are some pleural abnormalities that do not fit into the common categories of pleural diseases.",
+    "Other pleural abnormalities are also observed."
+  ],
+  "no pleural others": [
+    "No other pleural abnormalities were detected in the radiograph.",
+    "There are no findings related to other pleural abnormalities."
+  ],
+  "uncertain pleural others": [
+    "There are ambiguous findings related to the pleura.",
+    "There is no visible pleural abnormality, although the image does not completely exclude all potential pleural conditions."
+  ],
+  "no support devices": [
+    "There is no evidence of any support devices in the chest area.",
+    "There are no support devices seen in the current study.",
+    "There are no support devices in place."
+  ]
+}

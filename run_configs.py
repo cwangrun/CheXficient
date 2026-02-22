@@ -13,5 +13,5 @@ def chexficient():
         extra_prompt=True,
         aug_tag=True,
         nodes=1,
-        ngpus=2,
+        ngpus=8,
     )

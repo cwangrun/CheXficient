@@ -211,19 +211,9 @@ The curated subset from the raw training set is stored within the model checkpoi
 For example, you can find it from our pretrained [checkpoint](https://dl.fbaipublicfiles.com/MMPT/cit/yfcc100m_for_in.tar.gz)['subset'].
 
 
-
-
 ## Bugs or questions?
 
 If you have any questions related to the code or the paper, feel free to email Chong Wang (`chongwa@stanford.edu`).
-
-
-
-
-[## TODO
-
-- [] integrated downloading with huggingface and pytorch hub](url)
-
 
 
 

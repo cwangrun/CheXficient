@@ -174,7 +174,7 @@ replacing its original image encoder with our pre-trained vision encoder.
 
 **Data**
 
-An extensive training corpus of 1.235 million CXR image–report pairs was collected from 13 public datasets:
+An extensive training corpus of more than 1.235 million CXR image–report pairs was collected from 13 public datasets:
 [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0);
 [ReXGradient-160K](https://huggingface.co/datasets/rajpurkarlab/ReXGradient-160K);
 [CheXpert-Plus](https://aimi.stanford.edu/datasets/chexpert-plus);

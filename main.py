@@ -205,7 +205,7 @@ def main_worker(gpu, args):
     loss_scaler = NativeScaler(args.fp16)
 
 
-    # checkpoint = torch.load("./to_hf/checkpoint-last_upload.pth", map_location='cpu')
+    # checkpoint = torch.load("./to_hf/checkpoint.pth", map_location='cpu')
     # subset_used = list(checkpoint['subset'])
     # res = model.load_state_dict(checkpoint['model'], strict=False)
     # print(res, 'training epoch: %d' % checkpoint['epoch'], 'training step: %d' % checkpoint['step'])
@@ -318,7 +318,7 @@ def main_worker(gpu, args):
                 )
             data_loader_train = torch.utils.data.DataLoader(
                 dataset_train,
-                batch_size=args.batch_size//5,
+                batch_size=args.batch_size,
                 shuffle=(train_sampler is None),
                 num_workers=args.num_workers,
                 collate_fn=getattr(dataset_train, "collate_fn", None),

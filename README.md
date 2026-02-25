@@ -1,6 +1,6 @@
 ## CheXficient
 
-This repository provides the implementation of the paper [A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling](https://arxiv.org/abs/2301.02241). 
+This repository provides the implementation of the paper [A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling](https://github.com/cwangrun/CheXficient/edit/master/README.md). 
 CheXficient is a chest X-ray (CXR) foundation model developed within a contrastive language–image pretraining (CLIP) framework. 
 Instead of relying on aggressive scaling, it emphasizes more effective utilization of training data to enhance both data efficiency and computational efficiency.
 Through active data-curated pretraining, CheXficient achieves competitive performance while requiring substantially fewer data and compute resources, 
@@ -55,7 +55,7 @@ pip install transformers==4.52.4
 
 ### Prepare Encoder
 CheXficient leverages pre-trained vision and text encoders, 
-such as [DINO-v2](https://github.com/facebookresearch/moco-v3), [Bio_ClinicalBERT](https://github.com/facebookresearch/SWAG), 
+such as [DINO-v2](https://github.com/facebookresearch/dinov2), [Bio_ClinicalBERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT), 
 enabling flexible extension to other pre-trained vision and language models.
 The corresponding model checkpoints are automatically downloaded in training.
 
@@ -144,9 +144,9 @@ print(outputs)
 
 ## Model List
 Our released models are listed as following. You can import them by the following Get Started/Evaluation section. 
-|              Model              | Table in Paper |
+| Model | Vision Encoder | Text Encoder |
 |:-------------------------------|:--------:|
-|  [vit-base_378_256](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing) | Table 4 |
+| [vit-b14-clip-378](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing) | ViT-B/14 | BERT-base |
 
 More models coming soon.
 
@@ -203,6 +203,7 @@ All example configuration settings are provided in configs.py. Data curation and
 python main.py  # a local training of the default setup on multiple GPUs.
 ```
 
+
 **Single GPU Training**
 
 Training can be performed on a single GPU using an embedding accumulation strategy (coming soon).
@@ -224,7 +225,6 @@ subset = state_dict['subset']
 ## Bugs or questions?
 
 If you have any questions related to the code or the paper, feel free to email Chong Wang (`chongwa@stanford.edu`).
-
 
 
 ## Citation

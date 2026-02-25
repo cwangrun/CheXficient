@@ -157,8 +157,8 @@ More models coming soon.
 ### Non-adapted Evaluation
 Please refer to ./clipeval/eval_zeroshot.py for non-adapted zero-shot evaluation on:
 
-1) findings classification;
-2) cross-modal retrieval.
+1) Findings classification;
+2) Cross-modal retrieval.
 
 ### Downstream-adapted Evaluation:
 Please refer to ./models_clip.py for downstream tasks like:

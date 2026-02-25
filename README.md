@@ -69,7 +69,7 @@ Check [Model List](#model-list) for other models.
 
 
 ### Use CheXficient with PyTorch
-For PyTorch-based usage, you can utilise the following code to load CheXficient pre-trained models (similar to resuming training in `main.py`):
+For PyTorch-based usage, you can utilize the following code to load CheXficient pretrained models (similar to resuming training in `main.py`):
 
 ```python 
 import torch
@@ -174,7 +174,7 @@ replacing its original image encoder with our pre-trained vision encoder.
 
 **Data**
 
-An extensive training corpus of more than 1.235 million CXR image–report pairs was collected from 13 public datasets:
+An extensive training corpus of over 1.235 million CXR image–report pairs was collected from 13 public datasets:
 [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0);
 [ReXGradient-160K](https://huggingface.co/datasets/rajpurkarlab/ReXGradient-160K);
 [CheXpert-Plus](https://aimi.stanford.edu/datasets/chexpert-plus);
@@ -201,7 +201,7 @@ Implementation details can be found in the ./preprocess folder.
 All example configuration settings are provided in configs.py. Data curation and model training are performed concurrently during the training process.
 
 ```bash 
-python main.py  # a local training of the default setup on multiple GPUs.
+python main.py    # a local training of the default setup on multiple GPUs.
 ```
 
 

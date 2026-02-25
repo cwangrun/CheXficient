@@ -158,14 +158,14 @@ More models coming soon.
 Please refer to ./clipeval/eval_zeroshot.py for non-adapted zero-shot evaluation on:
 
 1) findings classification;
-2) 
-3) cross-modal retrieval.
+2) cross-modal retrieval.
 
 ### Downstream-adapted Evaluation:
-Please refer to ./models_clip.py for:
-Classification (linear probing);
-Segmentation (U-Net decoding);
-For radiology report generation, we adopt the VLM framework from Microsoft’s [LLaVA-Rad](https://github.com/microsoft/LLaVA-Rad), 
+Please refer to ./models_clip.py for downstream tasks like:
+
+1. Classification (linear probing);
+2. Segmentation (U-Net decoding);
+3. Radiology report generation, we adopt the VLM framework from Microsoft’s [LLaVA-Rad](https://github.com/microsoft/LLaVA-Rad), 
 replacing its original image encoder with our pre-trained vision encoder.
 
 

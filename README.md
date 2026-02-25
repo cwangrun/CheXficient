@@ -8,11 +8,10 @@ offering a practical approach for scalable medical imaging foundation models.
 
 
 ```bibtex 
-@inproceedings{xu2023cit,
+@inproceedings{2026,
    title={A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling},
-   author={Hu Xu, Saining Xie, Po-Yao Huang, Licheng Yu, Russell Howes, Gargi Ghosh, Luke Zettlemoyer and Christoph Feichtenhofer},
-   journal={arXiv preprint arXiv:2301.02241},
-   year={2023} 
+   author={XXX},
+
 }
 ```
 
@@ -186,7 +185,7 @@ An extensive training corpus of 1.235 million CXR image–report pairs was colle
 [VinDr-PCXR](https://vindr.ai/datasets/pediatric-chest-x-ray);
 [ChestDR](https://springernature.figshare.com/articles/dataset/ChestDR_Thoracic_Diseases_Screening_in_Chest_Radiography/22302775).
 
-Note some of them ([NIH ChestX-ray14, BRAX, VinDr-CXR, VinDr-PCXR, and ChestDR) do not provide free-text reports but instead include structured diagnostic labels (e.g., pleural effusion, cardiomegaly, atelectasis).
+Note some of them (NIH ChestX-ray14, BRAX, VinDr-CXR, VinDr-PCXR, and ChestDR) do not provide free-text reports but instead include structured diagnostic labels (e.g., pleural effusion, cardiomegaly, atelectasis).
 we generate pseudo-reports for them using a template-based report synthesis strategy introduced in [LLaVA-Rad](https://github.com/microsoft/LLaVA-Rad).
 
 We preprocess all contributing datasets using simple filtering rules (e.g., excluding samples with empty CXR reports or invalid image–text pairs).
@@ -221,9 +220,9 @@ If you have any questions related to the code or the paper, feel free to email C
 
 
 
-## TODO
+[## TODO
 
-- [] integrated downloading with huggingface and pytorch hub
+- [] integrated downloading with huggingface and pytorch hub](url)
 
 
 
@@ -233,10 +232,9 @@ If you have any questions related to the code or the paper, feel free to email C
 Please cite our paper below if CheXficient contributes in your work:
 
 ```bibtex 
-@inproceedings{xu2023cit,
-   title={CiT: Curation in Training for Effective Vision-Language Data},
-   author={Hu Xu, Saining Xie, Po-Yao Huang, Licheng Yu, Russell Howes, Gargi Ghosh, Luke Zettlemoyer and Christoph Feichtenhofer},
-   journal={arXiv preprint arXiv:2301.02241},
-   year={2023}
+@inproceedings{2026,
+   title={A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling},
+   author={XXX},
+
 }
 ```

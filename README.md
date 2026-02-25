@@ -212,11 +212,11 @@ Training can be performed on a single GPU using an embedding accumulation strate
 **Curated Data**
 
 The curated subset from the raw training set is stored within the model checkpoint under the key "subset".
-For example, you can find it from pretrained model checkpoints.
+For example,
 
 ```python 
 import torch
-state_dict = torch.load(f"pretrained_models/pytorch_model.pth", map_location='cpu')['model']
+state_dict = torch.load(f"pretrained_models/pytorch_model.pth", map_location='cpu')
 subset = state_dict['subset']
 ```
 

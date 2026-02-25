@@ -143,10 +143,10 @@ print(outputs)
 
 
 ## Model List
-Our released models are listed as following. You can import these models by the following Get Started/Evaluation section. 
+Our released models are listed as following. You can import them by the following Get Started/Evaluation section. 
 |              Model              | Table in Paper |
 |:-------------------------------|:--------:|
-|  [cit/yfcc15m_in1k_mocob16](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing) | Table 4 |
+|  [vit-base_378_256](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing) | Table 4 |
 
 More models coming soon.
 

@@ -144,6 +144,7 @@ print(outputs)
 
 ## Model List
 Our released models are listed as following. You can import them by the following Get Started/Evaluation section. 
+
 | Model | Vision Encoder | Text Encoder |
 |:-------------------------------|:--------:|
 | [vit-b14-clip-378](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing) | ViT-B/14 | BERT-base |

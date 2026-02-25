@@ -1,6 +1,6 @@
 ## CheXficient
 
-This repository provides the implementation of the paper [A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling](https://github.com/cwangrun/CheXficient/edit/master/README.md). 
+This repository provides the implementation of the paper [A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling](https://github.com/cwangrun/CheXficient). 
 CheXficient is a chest X-ray (CXR) foundation model developed within a contrastive language–image pretraining (CLIP) framework. 
 Instead of relying on aggressive scaling, it emphasizes more effective utilization of training data to enhance both data efficiency and computational efficiency.
 Through active data-curated pretraining, CheXficient achieves competitive performance while requiring substantially fewer data and compute resources, 

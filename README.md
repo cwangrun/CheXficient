@@ -107,7 +107,7 @@ print('prob:', cosine.softmax(dim=1))
 ```
 
 ### Use CheXficient with Huggingface
-Please run the following to load checkpoints (Huggingface Transformer compatible). 
+Please run the following to load checkpoints. 
 
 ```python 
 import torch
@@ -155,7 +155,11 @@ More models coming soon.
 ## Evaluation
 
 ### Non-adapted Evaluation
-Please refer to ./clipeval/eval_zeroshot.py for zero-shot evaluation on findings classification and cross-modal retrieval.
+Please refer to ./clipeval/eval_zeroshot.py for non-adapted zero-shot evaluation on:
+
+1) findings classification;
+2) 
+3) cross-modal retrieval.
 
 ### Downstream-adapted Evaluation:
 Please refer to ./models_clip.py for:

@@ -206,13 +206,20 @@ python main.py  # a local training of the default setup on multiple GPUs.
 
 **Single GPU Training**
 
-Embedding accumulation strategy (coming soon)
+Training can be performed on a single GPU using an embedding accumulation strategy (coming soon).
 
 
 **Curated Data**
 
 The curated subset from the raw training set is stored within the model checkpoint under the key "subset".
-For example, you can find it from our pretrained [checkpoint](https://dl.fbaipublicfiles.com/MMPT/cit/yfcc100m_for_in.tar.gz)['subset'].
+For example, you can find it from pretrained model checkpoints.
+
+```python 
+import torch
+state_dict = torch.load(f"pretrained_models/pytorch_model.pth", map_location='cpu')['model']
+subset = state_dict['subset']
+```
+
 
 
 ## Bugs or questions?

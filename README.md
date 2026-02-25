@@ -146,8 +146,7 @@ print(outputs)
 Our released models are listed as following. You can import these models by the following Get Started/Evaluation section. 
 |              Model              | Table in Paper |
 |:-------------------------------|:--------:|
-|  [cit/yfcc15m_in1k_mocob16](https://dl.fbaipublicfiles.com/MMPT/cit/yfcc15m_in1k_mocob16.tar) | Table 4 |
-| [cit/yfcc100m_in1k_mocob16](https://dl.fbaipublicfiles.com/MMPT/cit/yfcc100m_in1k_mocob16.tar) | Table 4 |
+|  [cit/yfcc15m_in1k_mocob16](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing) | Table 4 |
 
 More models coming soon.
 
@@ -212,7 +211,7 @@ Training can be performed on a single GPU using an embedding accumulation strate
 **Curated Data**
 
 The curated subset from the raw training set is stored within the model checkpoint under the key "subset".
-For example,
+For example:
 
 ```python 
 import torch

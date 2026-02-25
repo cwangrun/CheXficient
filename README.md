@@ -1,6 +1,6 @@
 ## CheXficient
 
-This repository provides the official implementation of the paper [A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling](https://arxiv.org/abs/2301.02241). 
+This repository provides the implementation of the paper [A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling](https://arxiv.org/abs/2301.02241). 
 CheXficient is a chest X-ray (CXR) foundation model developed within a contrastive language–image pretraining (CLIP) framework. 
 Instead of relying on aggressive scaling, it emphasizes more effective utilization of training data to enhance both data efficiency and computational efficiency.
 Through active data-curated pretraining, CheXficient achieves competitive performance while requiring substantially fewer data and compute resources, 
@@ -29,7 +29,7 @@ offering a practical approach for scalable medical imaging foundation models.
     - [Non-adapted Evaluation](#non-adapted-evaluation)
     - [Downstream-adapted Evaluation](#downstream-adapted-evaluation)
   - [Training](#training)
-  - [Bugs or Questions?](#bugs-or-questions)
+  - [Bugs or Questions](#bugs-or-questions)
   - [Citation](#citation)
 
 
@@ -107,7 +107,7 @@ print('prob:', cosine.softmax(dim=1))
 ```
 
 ### Use CheXficient with Huggingface
-Please run the following to load checkpoints (Huggingface Transformer compatible). Hosting checkpoints in huggingface coming soon.
+Please run the following to load checkpoints (Huggingface Transformer compatible). 
 
 ```python 
 import torch

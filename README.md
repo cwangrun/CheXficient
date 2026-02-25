@@ -107,7 +107,7 @@ print('prob:', cosine.softmax(dim=1))
 ```
 
 ### Use CheXficient with Huggingface
-Please run the following to load checkpoints from [Huggingface](https://huggingface.co/StanfordAIMI/CheXficient)
+Please run the following to load checkpoints from [Huggingface](https://huggingface.co/StanfordAIMI/CheXficient).
 
 ```python 
 import torch

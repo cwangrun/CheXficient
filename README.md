@@ -62,8 +62,8 @@ The corresponding model checkpoints are automatically downloaded in training.
 
 ### Download Pretrained CheXficient
 ```bash 
-wget https://dl.fbaipublicfiles.com/MMPT/cit/yfcc15m_in1k_mocob16.tar
-tar xvf yfcc15m_in1k_mocob16.tar  # expected in pretrained_models/yfcc15m_in1k_mocob16
+pip install gdown
+gdown --folder https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS
 ```
 Check [Model List](#model-list) for other models.
 

@@ -8,10 +8,11 @@ offering a practical approach for scalable medical imaging foundation models.
 
 
 ```bibtex 
-@inproceedings{2026,
-   title={A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling},
-   author={XXX},
-
+@article{wang2026data,
+  title={A data-and compute-efficient chest X-ray foundation model beyond aggressive scaling},
+  author={Wang, Chong and Zhang, Yabin and Gao, Yunhe and Varma, Maya and Mottez, Clemence and Patsatzi, Faidra and Liu, Jiaming and Long, Jin and Delbrouck, Jean-Benoit and Gatidis, Sergios and others},
+  journal={arXiv preprint arXiv:2602.22843},
+  year={2026}
 }
 ```
 
@@ -233,9 +234,10 @@ If you have any questions related to the code or the paper, feel free to email C
 Please cite our paper below if CheXficient contributes in your work:
 
 ```bibtex 
-@inproceedings{2026,
-   title={A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling},
-   author={XXX},
-
+@article{wang2026data,
+  title={A data-and compute-efficient chest X-ray foundation model beyond aggressive scaling},
+  author={Wang, Chong and Zhang, Yabin and Gao, Yunhe and Varma, Maya and Mottez, Clemence and Patsatzi, Faidra and Liu, Jiaming and Long, Jin and Delbrouck, Jean-Benoit and Gatidis, Sergios and others},
+  journal={arXiv preprint arXiv:2602.22843},
+  year={2026}
 }
 ```

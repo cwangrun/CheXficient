@@ -48,7 +48,7 @@ The prototypes are updated concurrently with model training to reflect the evolv
 
 ## Getting Started
 
-This codebase is designed with minimal dependencies (tested under Python 3.10.17, PyTorch 2.1.1 and Transformers 4.52.4).
+This codebase is designed with minimal dependencies (tested under Python 3.10.17, PyTorch 2.1.1 and Transformers 4.52.4). The installation process typically takes less than one hour.
 
 ```bash 
 pip install transformers==4.52.4

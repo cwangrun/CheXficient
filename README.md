@@ -178,6 +178,7 @@ An extensive training corpus of over 1.235 million CXR image–report pairs was 
 [VinDr-CXR](https://github.com/microsoft/LLaVA-Rad);
 [VinDr-PCXR](https://vindr.ai/datasets/pediatric-chest-x-ray);
 [ChestDR](https://springernature.figshare.com/articles/dataset/ChestDR_Thoracic_Diseases_Screening_in_Chest_Radiography/22302775).
+Detailed dataset composition information can be found [here](https://drive.google.com/drive/folders/1ISHSL8wf6upI_dRigMFroTaUPbozNFmS?usp=sharing). 
 
 Note some of them (NIH ChestX-ray14, BRAX, VinDr-CXR, VinDr-PCXR, and ChestDR) do not provide free-text reports but instead include structured diagnostic labels (e.g., pleural effusion, cardiomegaly, atelectasis).
 we generate pseudo-reports for them using a template-based report synthesis strategy introduced in [LLaVA-Rad](https://github.com/microsoft/LLaVA-Rad).

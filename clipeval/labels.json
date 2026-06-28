@@ -1,0 +1,116 @@
+{
+  "chexpert_test": [
+    "Enlarged Cardiomediastinum",
+    "Cardiomegaly",
+    "Lung Lesion",
+    "Lung Opacity",
+    "Edema",
+    "Consolidation",
+    "Pneumonia",
+    "Atelectasis",
+    "Pneumothorax",
+    "Pleural Effusion",
+    "Pleural Other",
+    "Fracture",
+    "Support Devices",
+    "No Finding"
+  ],
+  "mimic": [
+    "Enlarged Cardiomediastinum",
+    "Cardiomegaly",
+    "Lung Lesion",
+    "Lung Opacity",
+    "Edema",
+    "Consolidation",
+    "Pneumonia",
+    "Atelectasis",
+    "Pneumothorax",
+    "Pleural Effusion",
+    "Pleural Other",
+    "Fracture",
+    "Support Devices",
+    "No Finding"
+  ],
+  "nihchestxray14": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Effusion",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pneumonia",
+    "Pneumothorax",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Pleural Thickening",
+    "Hernia",
+    "No Finding"
+  ],
+  "pneumonia_Xray2017": [
+    "Pneumonia"
+  ],
+  "covid19_pneumonia_normal": [
+    "Pneumonia"
+  ],
+  "simm_pneumothorax": [
+    "Pneumothorax"
+  ],
+  "tbx11k": [
+    "Tuberculosis"
+  ],
+  "vindr_cxr": [
+    "Aortic enlargement",
+    "Atelectasis",
+    "Calcification",
+    "Cardiomegaly",
+    "Clavicle fracture",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Enlarged PA (Pulmonary Artery)",
+    "ILD (Interstitial Lung Disease)",
+    "Infiltration",
+    "Lung Opacity",
+    "Lung cavity",
+    "Lung cyst",
+    "Mediastinal shift",
+    "Nodule/Mass",
+    "Pleural effusion",
+    "Pleural thickening",
+    "Pneumothorax",
+    "Pulmonary fibrosis",
+    "Rib fracture",
+    "COPD (Chronic Obstructive Pulmonary Disease)",
+    "Lung tumor",
+    "Pneumonia",
+    "Tuberculosis",
+    "Other lesion",
+    "Other disease",
+    "No finding"
+  ],
+  "vindr_pcxr": [
+    "Bronchitis",
+    "Bronchopneumonia",
+    "Bronchiolitis",
+    "Situs inversus",
+    "Pneumonia",
+    "Pleuropneumonia",
+    "Diaphragmatic hernia",
+    "Tuberculosis",
+    "Congenital emphysema",
+    "CPAM (Congenital Pulmonary Airway Malformation)",
+    "Hyaline membrane disease",
+    "Mediastinal tumor",
+    "Lung tumor",
+    "Other disease",
+    "No finding"
+  ],
+   "chexpert_5x200_retrieve": [
+    "None"
+  ],
+    "mimic_retrieve": [
+    "None"
+  ]
+}

@@ -4,7 +4,7 @@ This repository provides the implementation of the paper [A data- and compute-ef
 CheXficient is a chest X-ray (CXR) foundation model developed within a contrastive language–image pretraining (CLIP) framework. 
 Instead of relying on aggressive scaling, it emphasizes more effective utilization of training data to enhance both data efficiency and computational efficiency.
 Through active data-curated pretraining, CheXficient achieves competitive performance with its full-data counterpart while requiring substantially fewer data and compute resources, 
-offering a practical approach for scalable medical imaging foundation models.
+offering a practical approach for scalable medical foundation models.
 
 
 ## Quick Links
